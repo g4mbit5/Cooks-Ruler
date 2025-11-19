@@ -7,4 +7,4 @@ No parameters.
 Just geometry.
 
 ```bash
-python cooks_ruler.py
+python3 cooks_ruler.py
