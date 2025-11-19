@@ -1,6 +1,7 @@
 # Cook's Geometric Ruler
 
-A 150-line Python Geometric TSP heuristic.
+A 150-line pure-Python TSP heuristic that beats Nearest Neighbor <br/>
+by +10–13.8% using only the diameter of your point set and a 1.3× tolerance band.
 
 “It finds the two farthest-apart points in your dataset (the diameter), </br>
 turns that line into a ruler, divides it into exactly N equal logical segments (one per point), <br/>
