@@ -6,5 +6,10 @@ No training.
 No parameters.  
 Just geometry.
 
-```bash
-python3 cooks_ruler.py
+### Results
+
+| Dataset                        | LRS++ + 2-opt (miles) | vs Nearest Neighbor |
+|--------------------------------|-----------------------|---------------------|
+| 100 US Cities                  | 25,188                | **+18.4%**          |
+| 1,000 Nationwide US Cities     | 33,374                | **+17.2%**          |
+| 1,000 Clustered (March 2023)   | 6,489                 | **+10.2%**          |
