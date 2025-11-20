@@ -86,10 +86,10 @@ It doesn't beat LKH-3 on quality — **yet** — but it **crushes** everything e
 
 Two versions included:
 
-| Use case                     | Script                     | Command |
+| Use cases                     | Script                     | Command |
 |------------------------------|----------------------------|------------------------------------------------------|
-| Real Earth (lat/lon)         | `cooks_ruler.py`           | `python3 cooks_ruler.py YourDataFile.csv --name "My Data`|
-| Flat space (warehouse, PCB, robotics, physics) | `cooks_ruler_euclidean.py` | `python3 cooks_ruler_euclidean.py YourDataFile.csv --name "My Data"`|
+| Real Earth (delivery, field service, logistics, ride-hailing, drone routing, agriculture, utilities, telecom, emergency response, sales territories)         | `cooks_ruler.py`           | `python3 cooks_ruler.py YourDataFile.csv --name "My Data`|
+| Flat space (warehouse, PCB drilling, laser cutting, robotics, 3D printing, LiDAR path planning) | `cooks_ruler_euclidean.py` | `python3 cooks_ruler_euclidean.py YourDataFile.csv --name "My Data"`|
 
 Your CSV needs three columns: `id`, `x`, `y` (or `lat`, `lon` for Earth)
 
