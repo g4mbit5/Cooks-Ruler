@@ -8,4 +8,7 @@
  https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents (direct file: US_Accidents_March23.csv)
 
  "10,000 cities" ,SimpleMaps.com (a product of Pareto Software, LLC, based in the US), <br/>
- https://simplemaps.com/static/data/us-cities/uscities.csv
+ https://simplemaps.com/static/data/us-cities/uscities.csv <br/>
+
+ https://www.kaggle.com/competitions/career-con-2019/overview <br/>
+ Converted (X_train.csv, X_test.csv) and turns every robot trajectory into a proper 128-point Euclidean TSP instance (x/y coordinates).
