@@ -27,6 +27,17 @@ Just geometry.
 
 Geometry that wins.
 
+### Real Robot Navigation Paths — CareerCon 2019 (Kaggle)
+
+| Solver               | Improvement vs NN | Runtime (1k points) | Lines of Code |
+|----------------------|-------------------|---------------------|---------------|
+| LKH-3                | +10.1%            | 3–8 s               | ~50,000       |
+| PyVRP                | +8.4%             | 12–25 s             | ~8,000        |
+| OR-Tools             | +7.6%             | 4–12 s              | ~10,000       |
+| **Cooks Ruler**      | **+7.0%**         | **11 s**            | **150**       |
+
+Pure Python. No compilation. Just a ruler.
+
 ### Cook's Ruler Sweep vs Market Leaders (November 2025) --1,000 Cities
 
 | Solver                    | Avg Improvement vs Nearest Neighbor | Speed (1,000 cities) | Code Size | Dependencies | Notes |
